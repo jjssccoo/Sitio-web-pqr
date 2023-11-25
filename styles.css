@@ -1,0 +1,255 @@
+@import url("https://use.fontawesome.com/releases/v5.7.2/css/all.css");
+
+/*footer */
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container-footer {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+.contacto {
+  margin-top: 20px;
+}
+
+.redes-sociales {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes-sociales > a {
+  margin: 0 10px;
+}
+
+.copyright {
+  font-size: 12px;
+}
+/* == */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.1em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+p {
+  font-size: 1.28;
+}
+
+button {
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 15px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: black;
+  background-color: antiquewhite;
+}
+
+button:hover {
+  background-color: antiquewhite;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.color-acento {
+  color: gray;
+}
+
+header {
+  background-color: rgb(245, 245, 245);
+}
+
+header .logo {
+  margin: 0;
+  padding: 40px;
+  font-weight: bold;
+  color: gray;
+  font-size: 3.5;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+header .nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+header a {
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+headher a:hover {
+  color: antiquewhite;
+}
+
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: deepskyblue;
+  height: 90vh;
+  background-image: url("images/backgroundd.avif");
+  background-repeat: no-repeat;
+  background-size: cover; /* Cambiar a "contain" para que la imagen se mantenga visible sin recortarse */
+  background-position: center top; /* Cambiar a "center top" para posicionar la imagen en la parte superior central */
+}
+
+#hero h1 {
+  color: white;
+}
+
+#texto {
+  padding: 30px;
+  text-align: center;
+}
+
+#texto .container {
+  padding: 130px 12px;
+}
+
+#texto h2 {
+  margin-top: 0;
+  font-size: 3.2rem;
+}
+
+#uso {
+  background-color: crimson;
+  text-align: center;
+}
+
+#uso .container {
+  padding: 100px 0px;
+}
+
+#uso h2 {
+  margin-top: 0;
+}
+
+#uso h3 {
+  color: white;
+}
+
+#uso p {
+  color: white;
+  display: none;
+}
+
+#uso carta {
+  border-radius: 15px;
+}
+
+#Equipo {
+  margin: 0;
+  background-color: black;
+  padding: 20px;
+}
+
+#Equipo h2 {
+  text-align: center;
+  color: white;
+}
+
+.team {
+  padding: 0%;
+  color: white;
+  text-align: center;
+}
+
+#final {
+  background-color: white;
+  text-align: center;
+}
+
+ul {
+  margin-left: 10px;
+  text-align: end;
+  list-style: none;
+  font-size: 2.6;
+}
+
+.btn-clic {
+  margin: 20px;
+}
+
+@media (min-width: 720px) {
+  header {
+    position: fixed;
+    width: 100%;
+  }
+  header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  header .navegacion {
+    flex-direction: row;
+    padding-right: 20px;
+  }
+
+  /* #texto .img-container {
+    background-image: url(images/image.png);
+  }*/
+
+  #uso .cards {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+  }
+
+  #uso p {
+    display: block;
+  }
+
+  #uso .carta {
+    padding: 15px;
+  }
+
+  .btn-clic {
+    margin: 20px;
+  }
+}
